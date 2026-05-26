@@ -1,0 +1,7 @@
+{
+	"_Type": "Action.Type.Navigation",
+	"ActionResult": {
+		"_Name": "Sales_Order_Header"
+	},
+	"PageToOpen": "/demoapp/Pages/Sales_Order_Header_list.page"
+}

@@ -1,0 +1,58 @@
+{
+	"Controls": [
+		{
+			"_Type": "Control.Type.SectionedTable",
+			"_Name": "SectionedTable0",
+			"Sections": [
+				{
+					"_Type": "Section.Type.ContactCell",
+					"Target": {
+						"Service": "/demoapp/Services/com_sap_edm_sampleservice_v4.service",
+						"EntitySet": "SalesOrderHeaders"
+					},
+					"_Name": "SectionContactCell0",
+					"Visible": true,
+					"EmptySection": {
+						"FooterVisible": false
+					},
+					"Separators": {
+						"TopSectionSeparator": false,
+						"BottomSectionSeparator": true,
+						"HeaderSeparator": true,
+						"FooterSeparator": true,
+						"ControlSeparator": true
+					},
+					"ContactCell": {
+						"Visible": true,
+						"DetailImage": "res://contact.png",
+						"BadgeImage": "sap-icon://sales-order",
+						"Headline": "{SalesOrderID}",
+						"Subheadline": "{CurrencyCode}",
+						"Description": "{NetAmount}",
+						"ContextMenu": {
+							"PerformFirstActionWithFullSwipe": true
+						}
+					},
+					"DataPaging": {
+						"ShowLoadingIndicator": false,
+						"PageSize": 50
+					},
+					"DetailImageIsCircular": true,
+					"UseHeadlineForDetailImage": false
+				}
+			],
+			"FilterFeedbackBar": {
+				"ShowAllFilters": false,
+				"_Type": "Control.Type.FilterFeedbackBar"
+			}
+		}
+	],
+	"_Type": "Page",
+	"_Name": "Sales_Order_Header_list",
+	"ActionBar": {
+		"Items": [],
+		"_Name": "ActionBar1",
+		"_Type": "Control.Type.ActionBar",
+		"Caption": "Sales Orders"
+	}
+}

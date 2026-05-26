@@ -1,0 +1,9 @@
+{
+	"_Type": "Action.Type.Message",
+	"ActionResult": {
+		"_Name": "CustomerCreationFailure"
+	},
+	"Message": "{Property:Message}",
+	"Title": "Error",
+	"OKCaption": "OK"
+}
