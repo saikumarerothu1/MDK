@@ -1,0 +1,19 @@
+{
+	"_Type": "Action.Type.ODataService.CreateEntity",
+	"ActionResult": {
+		"_Name": "NewCustomertoSalesorder"
+	},
+	"Target": {
+		"Service": "/demoapp/Services/com_sap_edm_sampleservice_v4.service",
+		"EntitySet": "SalesOrderHeaders"
+	},
+	"Properties": {
+		"CreatedAt": "#Control:FCCreatedate/#Value",
+		"CurrencyCode": "#Control:FCCreateCurrencyCode/#Value",
+		"GrossAmount": "#Control:FCCreateGrossAmount/#Value",
+		"LifeCycleStatus": "#Control:FCCreateLifeCycleStatus/#Value",
+		"LifeCycleStatusName": "#Control:FCCreateLifeCycleStatusName/#Value",
+		"NetAmount": "#Control:FCCreateNetAmount/#Value",
+		"TaxAmount": "#Control:FCCreateTaxAmount/#Value"
+	}
+}

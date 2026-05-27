@@ -53,12 +53,12 @@ let demoapp_actions_com_sap_edm_sampleservice_v4_service_syncfailuremessage_acti
 let demoapp_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action = __webpack_require__(/*! ./demoapp/Actions/com_sap_edm_sampleservice_v4/Service/SyncStartedMessage.action */ "./build.definitions/demoapp/Actions/com_sap_edm_sampleservice_v4/Service/SyncStartedMessage.action")
 let demoapp_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action = __webpack_require__(/*! ./demoapp/Actions/com_sap_edm_sampleservice_v4/Service/UploadOffline.action */ "./build.definitions/demoapp/Actions/com_sap_edm_sampleservice_v4/Service/UploadOffline.action")
 let demoapp_actions_createcustomerentityfailuremessage_action = __webpack_require__(/*! ./demoapp/Actions/CreateCustomerEntityFailureMessage.action */ "./build.definitions/demoapp/Actions/CreateCustomerEntityFailureMessage.action")
+let demoapp_actions_createcustomerwithsalesorder_action = __webpack_require__(/*! ./demoapp/Actions/CreateCustomerWithSalesOrder.action */ "./build.definitions/demoapp/Actions/CreateCustomerWithSalesOrder.action")
 let demoapp_actions_customercreationfailure_action = __webpack_require__(/*! ./demoapp/Actions/CustomerCreationFailure.action */ "./build.definitions/demoapp/Actions/CustomerCreationFailure.action")
 let demoapp_actions_customers_createentity_action = __webpack_require__(/*! ./demoapp/Actions/Customers_CreateEntity.action */ "./build.definitions/demoapp/Actions/Customers_CreateEntity.action")
 let demoapp_actions_customers_deleteconfirmation_action = __webpack_require__(/*! ./demoapp/Actions/Customers_DeleteConfirmation.action */ "./build.definitions/demoapp/Actions/Customers_DeleteConfirmation.action")
 let demoapp_actions_customers_deleteentity_action = __webpack_require__(/*! ./demoapp/Actions/Customers_DeleteEntity.action */ "./build.definitions/demoapp/Actions/Customers_DeleteEntity.action")
 let demoapp_actions_customers_updateentity_action = __webpack_require__(/*! ./demoapp/Actions/Customers_UpdateEntity.action */ "./build.definitions/demoapp/Actions/Customers_UpdateEntity.action")
-let demoapp_actions_customerstosalesorder_action = __webpack_require__(/*! ./demoapp/Actions/CustomerstoSalesOrder.action */ "./build.definitions/demoapp/Actions/CustomerstoSalesOrder.action")
 let demoapp_actions_deletecustomerentityfailuremessage_action = __webpack_require__(/*! ./demoapp/Actions/DeleteCustomerEntityFailureMessage.action */ "./build.definitions/demoapp/Actions/DeleteCustomerEntityFailureMessage.action")
 let demoapp_actions_errorarchive_errorarchive_syncfailure_action = __webpack_require__(/*! ./demoapp/Actions/ErrorArchive/ErrorArchive_SyncFailure.action */ "./build.definitions/demoapp/Actions/ErrorArchive/ErrorArchive_SyncFailure.action")
 let demoapp_actions_errorarchive_navtoerrorarchive_detail_action = __webpack_require__(/*! ./demoapp/Actions/ErrorArchive/NavToErrorArchive_Detail.action */ "./build.definitions/demoapp/Actions/ErrorArchive/NavToErrorArchive_Detail.action")
@@ -78,7 +78,7 @@ let demoapp_actions_navtocustomers_list_action = __webpack_require__(/*! ./demoa
 let demoapp_actions_navtonewcreatecustomer_action = __webpack_require__(/*! ./demoapp/Actions/NavToNewCreateCustomer.action */ "./build.definitions/demoapp/Actions/NavToNewCreateCustomer.action")
 let demoapp_actions_navtosales_action = __webpack_require__(/*! ./demoapp/Actions/NavToSales.action */ "./build.definitions/demoapp/Actions/NavToSales.action")
 let demoapp_actions_new_customer_create_action = __webpack_require__(/*! ./demoapp/Actions/New_Customer_Create.action */ "./build.definitions/demoapp/Actions/New_Customer_Create.action")
-let demoapp_actions_new_salesorder_create_action = __webpack_require__(/*! ./demoapp/Actions/New_SalesOrder_Create.action */ "./build.definitions/demoapp/Actions/New_SalesOrder_Create.action")
+let demoapp_actions_newcustomertosalesorder_action = __webpack_require__(/*! ./demoapp/Actions/NewCustomertoSalesorder.action */ "./build.definitions/demoapp/Actions/NewCustomertoSalesorder.action")
 let demoapp_actions_product_detail_action = __webpack_require__(/*! ./demoapp/Actions/Product_detail.action */ "./build.definitions/demoapp/Actions/Product_detail.action")
 let demoapp_actions_product_list_action = __webpack_require__(/*! ./demoapp/Actions/Product_list.action */ "./build.definitions/demoapp/Actions/Product_list.action")
 let demoapp_actions_sales_order_header_action = __webpack_require__(/*! ./demoapp/Actions/Sales_Order_Header.action */ "./build.definitions/demoapp/Actions/Sales_Order_Header.action")
@@ -133,7 +133,6 @@ let demoapp_rules_com_sap_edm_sampleservice_v4_errorarchive_checkforsyncerror_js
 let demoapp_rules_count_js = __webpack_require__(/*! ./demoapp/Rules/Count.js */ "./build.definitions/demoapp/Rules/Count.js")
 let demoapp_rules_country_list_js = __webpack_require__(/*! ./demoapp/Rules/Country_List.js */ "./build.definitions/demoapp/Rules/Country_List.js")
 let demoapp_rules_createcustomerandsales_js = __webpack_require__(/*! ./demoapp/Rules/CreateCustomerAndSales.js */ "./build.definitions/demoapp/Rules/CreateCustomerAndSales.js")
-let demoapp_rules_createcustomerandsalesorder_js = __webpack_require__(/*! ./demoapp/Rules/CreateCustomerAndSalesOrder.js */ "./build.definitions/demoapp/Rules/CreateCustomerAndSalesOrder.js")
 let demoapp_rules_createvalidation_js = __webpack_require__(/*! ./demoapp/Rules/Createvalidation.js */ "./build.definitions/demoapp/Rules/Createvalidation.js")
 let demoapp_rules_customerc_js = __webpack_require__(/*! ./demoapp/Rules/CustomerC.js */ "./build.definitions/demoapp/Rules/CustomerC.js")
 let demoapp_rules_customercount_js = __webpack_require__(/*! ./demoapp/Rules/CustomerCount.js */ "./build.definitions/demoapp/Rules/CustomerCount.js")
@@ -200,12 +199,12 @@ module.exports = {
 	demoapp_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action : demoapp_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action,
 	demoapp_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action : demoapp_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action,
 	demoapp_actions_createcustomerentityfailuremessage_action : demoapp_actions_createcustomerentityfailuremessage_action,
+	demoapp_actions_createcustomerwithsalesorder_action : demoapp_actions_createcustomerwithsalesorder_action,
 	demoapp_actions_customercreationfailure_action : demoapp_actions_customercreationfailure_action,
 	demoapp_actions_customers_createentity_action : demoapp_actions_customers_createentity_action,
 	demoapp_actions_customers_deleteconfirmation_action : demoapp_actions_customers_deleteconfirmation_action,
 	demoapp_actions_customers_deleteentity_action : demoapp_actions_customers_deleteentity_action,
 	demoapp_actions_customers_updateentity_action : demoapp_actions_customers_updateentity_action,
-	demoapp_actions_customerstosalesorder_action : demoapp_actions_customerstosalesorder_action,
 	demoapp_actions_deletecustomerentityfailuremessage_action : demoapp_actions_deletecustomerentityfailuremessage_action,
 	demoapp_actions_errorarchive_errorarchive_syncfailure_action : demoapp_actions_errorarchive_errorarchive_syncfailure_action,
 	demoapp_actions_errorarchive_navtoerrorarchive_detail_action : demoapp_actions_errorarchive_navtoerrorarchive_detail_action,
@@ -225,7 +224,7 @@ module.exports = {
 	demoapp_actions_navtonewcreatecustomer_action : demoapp_actions_navtonewcreatecustomer_action,
 	demoapp_actions_navtosales_action : demoapp_actions_navtosales_action,
 	demoapp_actions_new_customer_create_action : demoapp_actions_new_customer_create_action,
-	demoapp_actions_new_salesorder_create_action : demoapp_actions_new_salesorder_create_action,
+	demoapp_actions_newcustomertosalesorder_action : demoapp_actions_newcustomertosalesorder_action,
 	demoapp_actions_product_detail_action : demoapp_actions_product_detail_action,
 	demoapp_actions_product_list_action : demoapp_actions_product_list_action,
 	demoapp_actions_sales_order_header_action : demoapp_actions_sales_order_header_action,
@@ -280,7 +279,6 @@ module.exports = {
 	demoapp_rules_count_js : demoapp_rules_count_js,
 	demoapp_rules_country_list_js : demoapp_rules_country_list_js,
 	demoapp_rules_createcustomerandsales_js : demoapp_rules_createcustomerandsales_js,
-	demoapp_rules_createcustomerandsalesorder_js : demoapp_rules_createcustomerandsalesorder_js,
 	demoapp_rules_createvalidation_js : demoapp_rules_createvalidation_js,
 	demoapp_rules_customerc_js : demoapp_rules_customerc_js,
 	demoapp_rules_customercount_js : demoapp_rules_customercount_js,
@@ -673,7 +671,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* binding */ CreateCustomerAndSales)
 /* harmony export */ });
 /**
- * Describe this function...
+ * Creates Customer + linked SalesOrder in a single deep-insert call
  * @param {IClientAPI} clientAPI
  */
 async function CreateCustomerAndSales(clientAPI) {
@@ -681,89 +679,72 @@ async function CreateCustomerAndSales(clientAPI) {
   const appData = clientAPI.getAppClientData();
   const customerData = appData.CustomerData;
   try {
-    const customerResult = await clientAPI.executeAction({
-      "Name": "/demoapp/Actions/New_Customer_Create.action",
-      "Properties": {
-        "Properties": customerData
-      }
-    });
-    const createdCustomer = JSON.parse(customerResult.data);
-    const customerId = createdCustomer.CustomerID;
-    const currencyCode = pageProxy.evaluateTargetPath('#Control:FCSalesOrderCurrency/#Value');
-    const grossAmount = pageProxy.evaluateTargetPath('#Control:FCSalesOrderGrossAmount/#Value');
-    const netAmount = pageProxy.evaluateTargetPath('#Control:FCSalesOrderNetAmount/#Value');
-    const taxAmount = pageProxy.evaluateTargetPath('#Control:FCSalesOrderTaxAmount/#Value');
-    const lifeCycleStatus = pageProxy.evaluateTargetPath('#Control:FCSalesOrderLifeCycle/#Value');
-    const lifeCycleStatusName = pageProxy.evaluateTargetPath('#Control:FCSalesOrderLifeCycleStatusName/#Value');
+    if (!customerData) {
+      throw new Error("Customer data missing. Please fill customer page first.");
+    }
+
+    // 1. Read SalesOrder values
+    const currencyCode = pageProxy.evaluateTargetPath('#Control:FCCreateCurrencyCode/#Value');
+    const netAmount = pageProxy.evaluateTargetPath('#Control:FCCreateNetAmount/#Value');
+    const taxAmount = pageProxy.evaluateTargetPath('#Control:FCCreateTaxAmount/#Value');
+    const grossAmount = pageProxy.evaluateTargetPath('#Control:FCCreateGrossAmount/#Value');
+    const lifeCycleStatus = pageProxy.evaluateTargetPath('#Control:FCCreateLifeCycleStatus/#Value');
+    const lifeCycleStatusName = pageProxy.evaluateTargetPath('#Control:FCCreateLifeCycleStatusName/#Value');
+    const createdDate = pageProxy.evaluateTargetPath('#Control:FCCreatedate/#Value');
+
+    // 2. Build combined payload (Deep Insert)
+    const deepPayload = {
+      FirstName: customerData.FirstName,
+      LastName: customerData.LastName,
+      EmailAddress: customerData.EmailAddress,
+      PhoneNumber: customerData.PhoneNumber,
+      Country: customerData.Country,
+      // Nested SalesOrder — backend auto-links via navigation property
+      SalesOrders: [{
+        CurrencyCode: currencyCode ? currencyCode.toUpperCase() : "EUR",
+        GrossAmount: grossAmount ? Number(grossAmount) : 0,
+        NetAmount: netAmount ? Number(netAmount) : 0,
+        TaxAmount: taxAmount ? Number(taxAmount) : 0,
+        LifeCycleStatus: lifeCycleStatus || "N",
+        LifeCycleStatusName: lifeCycleStatusName || "New",
+        CreatedAt: createdDate
+      }]
+    };
+
+    // 3. Single backend call — creates Customer + SalesOrder + Link
     await clientAPI.executeAction({
-      "Name": "/demoapp/Actions/New_SalesOrder_Create.action",
+      "Name": "/demoapp/Actions/CreateCustomerWithSalesOrder.action",
       "Properties": {
-        "Properties": {
-          "CustomerID": customerId,
-          "CurrencyCode": currencyCode.toUpperCase(),
-          "GrossAmount": Number(grossAmount),
-          "NetAmount": Number(netAmount),
-          "TaxAmount": Number(taxAmount),
-          "LifeCycleStatus": "N",
-          "LifeCycleStatusName": "New"
-        }
+        "Properties": deepPayload
       }
     });
+
+    // 4. Clean up temp data
+    appData.CustomerData = null;
     return clientAPI.executeAction({
       "Name": "/demoapp/Actions/CloseModalPage_Complete.action",
       "Properties": {
-        "Message": "Customer and Sales Order Created"
+        "Message": "Customer and Sales Order Created Successfully"
       }
     });
   } catch (error) {
+    let errorMessage = "Unknown error";
+    if (error) {
+      if (typeof error === "string") errorMessage = error;else if (error.message) errorMessage = error.message;else if (error.data) errorMessage = typeof error.data === "string" ? error.data : JSON.stringify(error.data);else {
+        try {
+          errorMessage = JSON.stringify(error, Object.getOwnPropertyNames(error));
+        } catch (e) {
+          errorMessage = String(error);
+        }
+      }
+    }
     return clientAPI.executeAction({
       "Name": "/demoapp/Actions/CustomerCreationFailure.action",
       "Properties": {
-        "Message": JSON.stringify(error)
+        "Message": errorMessage
       }
     });
   }
-}
-
-/***/ }),
-
-/***/ "./build.definitions/demoapp/Rules/CreateCustomerAndSalesOrder.js":
-/*!************************************************************************!*\
-  !*** ./build.definitions/demoapp/Rules/CreateCustomerAndSalesOrder.js ***!
-  \************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ CreateCustomerAndSalesOrder)
-/* harmony export */ });
-/**
- * @param {IClientAPI} clientAPI
- */
-function CreateCustomerAndSalesOrder(clientAPI) {
-  const page = clientAPI.getPageProxy();
-  const clientData = page.getClientData();
-  clientData.FirstName = clientAPI.evaluateTargetPath("#Page:-Previous/#Control:FCCreateFirstName/#Value");
-  clientData.LastName = clientAPI.evaluateTargetPath("#Page:-Previous/#Control:FCCreateLastName/#Value");
-  clientData.Phone = clientAPI.evaluateTargetPath("#Page:-Previous/#Control:FCCreatePhone/#Value");
-  clientData.Email = clientAPI.evaluateTargetPath("#Page:-Previous/#Control:FCCreateEmail/#Value");
-  clientData.Country = clientAPI.evaluateTargetPath("#Page:-Previous/#Control:FCCountry/#SelectedValue");
-  return clientAPI.executeAction("/demoapp/Actions/New_Customer_Create.action").then(() => {
-    const actionResult = clientAPI.getActionResult("New_Customer_Create");
-    const createdCustomer = actionResult.data;
-    if (!createdCustomer || !createdCustomer.CustomerID) {
-      return clientAPI.executeAction({
-        "Name": "/demoapp/Actions/GenericMessageBox.action",
-        "Properties": {
-          "Title": "Error",
-          "Message": "Customer was not created properly. Cannot continue with SalesOrder."
-        }
-      });
-    }
-    clientData.CustomerID = createdCustomer.CustomerID;
-    return clientAPI.executeAction("/demoapp/Actions/New_SalesOrder_Create.action");
-  });
 }
 
 /***/ }),
@@ -2095,7 +2076,7 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Typ
   \******************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateFirstName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"First Name","PlaceHolder":"Enter First Name","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateLastName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Last Name","PlaceHolder":"Enter Last Name","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreatePhone","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Phone","PlaceHolder":"Enter Phone Number","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateEmail","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Email","PlaceHolder":"Enter Email","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"FCCountry","RequiredIndicator":false,"IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Country","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select one single item","PlaceHolder":"Select","IsSelectedSectionEnabled":false,"IsPickerDismissedOnSelection":true,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"Search":{"Enabled":true},"PickerItems":{"Target":"/demoapp/Rules/GetCountryList.js","DisplayValue":"{DisplayValue}","ReturnValue":"{ReturnValue}"}}],"Layout":{"NumberOfColumns":1},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"New_Customer_Create","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Next","Icon":"sap-icon://sys-next-page","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demoapp/Rules/StoreCustomerTempData.js"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar","Caption":"Customer Create"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateFirstName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"First Name","PlaceHolder":"Enter First Name","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateLastName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Last Name","PlaceHolder":"Enter Last Name","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreatePhone","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Phone","PlaceHolder":"Enter Phone Number","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateEmail","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Email","PlaceHolder":"Enter Email","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.ListPicker","_Name":"FCCountry","RequiredIndicator":false,"IsVisible":true,"Separator":true,"AllowMultipleSelection":false,"AllowEmptySelection":true,"Caption":"Country","DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"PickerPrompt":"Please select one single item","PlaceHolder":"Select","IsSelectedSectionEnabled":false,"IsPickerDismissedOnSelection":true,"AllowDefaultValueIfOneItem":false,"IsEditable":true,"Search":{"Enabled":true},"PickerItems":{"Target":"/demoapp/Rules/GetCountryList.js","DisplayValue":"{DisplayValue}","ReturnValue":"{ReturnValue}"}}],"Layout":{"NumberOfColumns":1},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"New_Customer_Create","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem1","Caption":"Item","SystemItem":"Cancel","Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/demoapp/Actions/CloseModalPage_Cancel.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Next","Icon":"sap-icon://sys-next-page","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demoapp/Rules/StoreCustomerTempData.js"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar","Caption":"Customer Create"}}
 
 /***/ }),
 
@@ -2135,7 +2116,7 @@ module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"Se
   \****************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCSalesOrderCurrency","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Currency Code","PlaceHolder":"Enter Currency","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCSalesOrderNetAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Net Amount","PlaceHolder":"Enter Net Amount","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCSalesOrderTaxAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Tax Amount","PlaceHolder":"Enter Tax Amount","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCSalesOrderGrossAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Gross Amount","PlaceHolder":"Enter Gross Amount","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCSalesOrderLifeCycle","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Life Cycle Status","PlaceHolder":"Enter Status","Enabled":true,"IsEditable":true},{"_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCSalesOrderLifeCycleStatusName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Life Cycle Status Name","PlaceHolder":"Enter LifeCycleStatusName","Enabled":true,"IsEditable":true}],"Layout":{"NumberOfColumns":1},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"SalesOrder_Create","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarCancel","Caption":"Cancel","SystemItem":"Cancel","Position":"Left","IsIconCircular":false,"Visible":true},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarDone","Caption":"Done","SystemItem":"Done","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demoapp/Rules/CreateCustomerAndSales.js"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar","Caption":"Create Sales Order"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"Controls":[{"Value":"EUR","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateCurrencyCode","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Currency Code","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"18.010","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateNetAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Net Amount","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"108.010","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateTaxAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Tax Amount","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"126.02","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateGrossAmount","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Gross Amount","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"N","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateLifeCycleStatus","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Lifecycle Status","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"New","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCCreateLifeCycleStatusName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Lifecycle Status Name","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"Enter Date","_Type":"Control.Type.FormCell.DatePicker","_Name":"FCCreatedate","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Creation Date","IsEditable":true,"Mode":"Datetime"}],"Layout":{"NumberOfColumns":1},"Visible":true,"EmptySection":{"FooterVisible":false},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0"}]}],"_Type":"Page","_Name":"SalesOrder_Create","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarCancel","Caption":"Cancel","SystemItem":"Cancel","Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/demoapp/Actions/CloseModalPage_Cancel.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarDone","Caption":"Done","SystemItem":"Done","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demoapp/Rules/CreateCustomerAndSales.js"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar","Caption":"Create Sales Order"}}
 
 /***/ }),
 
@@ -2429,6 +2410,16 @@ module.exports = {"_Type":"Action.Type.Message","ActionResult":{"_Name":"CreateC
 
 /***/ }),
 
+/***/ "./build.definitions/demoapp/Actions/CreateCustomerWithSalesOrder.action":
+/*!*******************************************************************************!*\
+  !*** ./build.definitions/demoapp/Actions/CreateCustomerWithSalesOrder.action ***!
+  \*******************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.ODataService.CreateEntity","ActionResult":{"_Name":"CreateCustomerWithSalesOrder"},"Target":{"Service":"/demoapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"Properties":{"Country":"{Country}","EmailAddress":"{EmailAddress}","FirstName":"{FirstName}","LastName":"{LastName}","PhoneNumber":"{PhoneNumber}"}}
+
+/***/ }),
+
 /***/ "./build.definitions/demoapp/Actions/CustomerCreationFailure.action":
 /*!**************************************************************************!*\
   !*** ./build.definitions/demoapp/Actions/CustomerCreationFailure.action ***!
@@ -2476,16 +2467,6 @@ module.exports = {"_Type":"Action.Type.ODataService.DeleteEntity","ActionResult"
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.ODataService.UpdateEntity","ActionResult":{"_Name":"Customers_UpdateEntity"},"OnFailure":"/demoapp/Actions/UpdateCustomerEntityFailureMessage.action","OnSuccess":"/demoapp/Actions/CloseModalPage_Complete.action","ValidationRule":"/demoapp/Rules/EmailValidation.js","Target":{"Service":"/demoapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers","ReadLink":"{@odata.readLink}"},"Properties":{"Country":"#Control:FCCountry/#SelectedValue","DateOfBirth":"#Control:FCUpdateDOB/#Value","EmailAddress":"#Control:FCEmail/#Value","FirstName":"#Control:FCFirstName/#Value","LastName":"#Control:FCLastName/#Value","PhoneNumber":"#Control:FCPhone/#Value"}}
-
-/***/ }),
-
-/***/ "./build.definitions/demoapp/Actions/CustomerstoSalesOrder.action":
-/*!************************************************************************!*\
-  !*** ./build.definitions/demoapp/Actions/CustomerstoSalesOrder.action ***!
-  \************************************************************************/
-/***/ ((module) => {
-
-module.exports = {"_Type":"Action.Type.ODataService.CreateRelatedEntity","ActionResult":{"_Name":"CustomerstoSalesOrder"},"Target":{"Service":"/demoapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"SalesOrderHeaders"},"ParentLink":{"Target":{"EntitySet":"Customers","ReadLink":"{@odata.readLink}"},"Property":"SalesOrders"},"Properties":{"CurrencyCode":"#Control:FCSalesOrderCurrency/#Value","GrossAmount":"#Control:FCSalesOrderGrossAmount/#Value","LifeCycleStatus":"#Control:FCSalesOrderLifeCycle/#Value","LifeCycleStatusName":"#Control:FCSalesOrderLifeCycleStatusName/#Value","NetAmount":"#Control:FCSalesOrderNetAmount/#Value","TaxAmount":"#Control:FCSalesOrderTaxAmount/#Value"}}
 
 /***/ }),
 
@@ -2669,6 +2650,16 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
 
 /***/ }),
 
+/***/ "./build.definitions/demoapp/Actions/NewCustomertoSalesorder.action":
+/*!**************************************************************************!*\
+  !*** ./build.definitions/demoapp/Actions/NewCustomertoSalesorder.action ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.ODataService.CreateEntity","ActionResult":{"_Name":"NewCustomertoSalesorder"},"Target":{"Service":"/demoapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"SalesOrderHeaders"},"Properties":{"CreatedAt":"#Control:FCCreatedate/#Value","CurrencyCode":"#Control:FCCreateCurrencyCode/#Value","GrossAmount":"#Control:FCCreateGrossAmount/#Value","LifeCycleStatus":"#Control:FCCreateLifeCycleStatus/#Value","LifeCycleStatusName":"#Control:FCCreateLifeCycleStatusName/#Value","NetAmount":"#Control:FCCreateNetAmount/#Value","TaxAmount":"#Control:FCCreateTaxAmount/#Value"}}
+
+/***/ }),
+
 /***/ "./build.definitions/demoapp/Actions/New_Customer_Create.action":
 /*!**********************************************************************!*\
   !*** ./build.definitions/demoapp/Actions/New_Customer_Create.action ***!
@@ -2676,16 +2667,6 @@ module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavT
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.ODataService.CreateEntity","ActionResult":{"_Name":"New_Customer_Create"},"Target":{"Service":"/demoapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"Properties":{"Country":"#Control:FCCountry/#SelectedValue","EmailAddress":"#Control:FCCreateEmail/#Value","FirstName":"#Control:FCCreateFirstName/#Value","LastName":"#Control:FCCreateLastName/#Value","PhoneNumber":"#Control:FCCreatePhone/#Value"}}
-
-/***/ }),
-
-/***/ "./build.definitions/demoapp/Actions/New_SalesOrder_Create.action":
-/*!************************************************************************!*\
-  !*** ./build.definitions/demoapp/Actions/New_SalesOrder_Create.action ***!
-  \************************************************************************/
-/***/ ((module) => {
-
-module.exports = {"_Type":"Action.Type.ODataService.CreateEntity","ActionResult":{"_Name":"New_SalesOrder_Create"},"Target":{"Service":"/demoapp/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"SalesOrderHeaders"},"Properties":{"CurrencyCode":"#Control:FCSalesOrderCurrency/#Value","GrossAmount":"#Control:FCSalesOrderGrossAmount/#Value","LifeCycleStatus":"#Control:FCSalesOrderLifeCycle/#Value","LifeCycleStatusName":"#Control:FCSalesOrderLifeCycleStatusName/#Value","NetAmount":"#Control:FCSalesOrderNetAmount/#Value","TaxAmount":"#Control:FCSalesOrderTaxAmount/#Value"}}
 
 /***/ }),
 
